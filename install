@@ -1,0 +1,7 @@
+pip3 install django_rest_framework
+pip3 install mockito
+pip3 install pytest
+django-admin startapp products
+python3 manage.py makemigrations
+python3 manage.py migrate
+python3 manage.py runserver 0.0.0.0:8000
